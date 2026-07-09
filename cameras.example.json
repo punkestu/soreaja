@@ -1,0 +1,37 @@
+[
+  {
+    "id": "sony-a7iii",
+    "name": "Sony A7 III Body",
+    "description": "Full-frame mirrorless camera, great for low light and video.",
+    "pricePerDay": 250000,
+    "image": "https://images.unsplash.com/photo-1516961642265-531546e84af2?auto=format&fit=crop&q=80&w=600&h=400"
+  },
+  {
+    "id": "canon-r5",
+    "name": "Canon EOS R5",
+    "description": "Professional full-frame mirrorless with 8K video capabilities.",
+    "pricePerDay": 450000,
+    "image": "https://images.unsplash.com/photo-1617005082833-1eb5857189f7?auto=format&fit=crop&q=80&w=600&h=400"
+  },
+  {
+    "id": "fuji-xt4",
+    "name": "Fujifilm X-T4",
+    "description": "APS-C mirrorless with classic dial controls and film simulations.",
+    "pricePerDay": 300000,
+    "image": "https://images.unsplash.com/photo-1638848493630-f655cc829ccb?auto=format&fit=crop&q=80&w=600&h=400"
+  },
+  {
+    "id": "sony-lens-2470",
+    "name": "Sony FE 24-70mm f/2.8 GM",
+    "description": "Versatile standard zoom lens for Sony E-mount.",
+    "pricePerDay": 150000,
+    "image": "https://images.unsplash.com/photo-1617005082533-c40d16c02eb1?auto=format&fit=crop&q=80&w=600&h=400"
+  },
+  {
+    "id": "dji-mavic-air-2",
+    "name": "DJI Mavic Air 2",
+    "description": "Compact drone with 4K video and intelligent shooting modes.",
+    "pricePerDay": 350000,
+    "image": "https://images.unsplash.com/photo-1579824228135-430983ee23b2?auto=format&fit=crop&q=80&w=600&h=400"
+  }
+]

@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="192.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoreAja</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SoreAja" />
+    <meta
+      property="og:description"
+      content="Kalo siang panas makanya SoreAja"
+    />
+    <meta property="og:url" content="https://soreaja.my.id" />
+    <meta
+      property="og:image"
+      content="https://soreaja.my.id/og_thumbnail.png"
+    />
+  </head>
+  <body class="h-screen w-screen bg-red-900 bg-halftone">
+    <header
+      class="fixed z-50 top-0 left-0 w-full bg-red-900 p-2 px-4 text-white flex justify-between sm:items-center flex-row gap-3"
+    >
+      <a href="index.html"><h1 class="text-3xl font-sef mt-1">SOREAJA</h1></a>
+      <button
+        class="cursor-pointer w-10 md:hidden flex"
+        popovertarget="menu-popover"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+          <!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+          <path
+            fill="rgb(255, 255, 255)"
+            d="M96 320C96 289.1 121.1 264 152 264C182.9 264 208 289.1 208 320C208 350.9 182.9 376 152 376C121.1 376 96 350.9 96 320zM264 320C264 289.1 289.1 264 320 264C350.9 264 376 289.1 376 320C376 350.9 350.9 376 320 376C289.1 376 264 350.9 264 320zM488 264C518.9 264 544 289.1 544 320C544 350.9 518.9 376 488 376C457.1 376 432 350.9 432 320C432 289.1 457.1 264 488 264z"
+          />
+        </svg>
+      </button>
+      <aside
+        class="hidden md:flex gap-4 items-center justify-between grow sm:grow-0"
+      >
+        <a class="underline" href="https://soreaja.my.id/privacy_policy.html">
+          Privacy Policy
+        </a>
+        <a class="underline" href="rent-catalog.html"> Catalog </a>
+        <a class="underline" href="https://photobox.soreaja.my.id">
+          Photobox
+        </a>
+        <a
+          href="https://saweria.co/bpangestu"
+          class="border rounded-lg px-2 py-1 bg-yellow-300 text-black"
+          href="https://soreaja.my.id/privacy_policy.html"
+        >
+          Saweria ☕️
+        </a>
+      </aside>
+    </header>
+    <div
+      popover="auto"
+      id="menu-popover"
+      class="fixed top-1/2 left-1/2 -translate-1/2 bg-white/0"
+    >
+      <div
+        class="bg-red-900 p-4 rounded-lg shadow-lg flex flex-col gap-2 text-white border-2 border-white"
+      >
+        <a
+          class="underline hover:text-yellow-300 transition-colors"
+          href="https://soreaja.my.id/privacy_policy.html"
+          >Privacy Policy</a
+        >
+        <a
+          class="underline hover:text-yellow-300 transition-colors"
+          href="rent-catalog.html"
+          >Catalog</a
+        >
+        <a
+          class="underline hover:text-yellow-300 transition-colors"
+          href="https://photobox.soreaja.my.id"
+          >Photobox</a
+        >
+        <a
+          href="https://saweria.co/bpangestu"
+          class="border rounded-lg px-2 py-1 bg-yellow-300 text-black hover:bg-yellow-400 transition-colors"
+          href="https://soreaja.my.id/privacy_policy.html"
+        >
+          Saweria ☕️
+        </a>
+      </div>
+    </div>
+    <main class="pt-18 pb-18">
+      <div
+        class="w-full h-[80vh] flex flex-col items-center justify-center gap-6"
+      >
+        <div
+          class="flex flex-col md:flex-row items-center justify-center gap-4"
+        >
+          <img
+            src="Logo_border.webp"
+            alt="Logo SoreAja"
+            width="120"
+            class="animate-[wiggle_1s_steps(2,end)_infinite]"
+          />
+          <h1 class="text-6xl font-sef text-white">SOREAJA</h1>
+        </div>
+        <p class="text-white/80 text-center w-3/4 md:w-1/2 xl:w-1/3">
+          Whether you need a super portable pocket camera for your trip or a fun
+          photobox experience for your event, SoreAja has you covered with
+          seamless booking and easy-to-use gear.
+        </p>
+        <div
+          class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start pt-4"
+        >
+          <a
+            href="rent-catalog.html"
+            class="w-full sm:w-auto px-8 py-4 bg-white text-neutral-950 font-semibold rounded-full flex items-center justify-center gap-2 hover:bg-neutral-200 transition-all hover:scale-105 active:scale-95"
+          >
+            <i data-lucide="camera" class="w-5 h-5"></i>
+            Rent Camera
+          </a>
+          <a
+            href="https://photobox.soreaja.my.id"
+            class="w-full sm:w-auto px-8 py-4 bg-red-900 text-white font-semibold rounded-full flex items-center justify-center gap-2 hover:bg-red-800 transition-all hover:scale-105 active:scale-95 border border-red-800"
+          >
+            <i data-lucide="image" class="w-5 h-5"></i>
+            Try Photobox
+          </a>
+        </div>
+      </div>
+
+      <div class="py-12">
+        <div class="text-center mb-16 flex flex-col items-center">
+          <h2 class="text-3xl font-bold text-white mb-4">Our Services</h2>
+          <p class="text-white/80 max-w-2xl mx-4">
+            Everything you need to capture memories perfectly, whether you're
+            traveling light or hosting a party.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 px-6">
+          <!-- Camera Rent Card -->
+          <div
+            class="group p-8 rounded-3xl bg-neutral-700/30 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <div
+              class="w-14 h-14 rounded-2xl bg-white/10 text-white flex items-center justify-center mb-6 group-hover:bg-white group-hover:text-black transition-colors"
+            >
+              <i data-lucide="camera" class="w-7 h-7"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-white mb-3">Camera Rental</h3>
+            <p class="text-neutral-400 mb-8 leading-relaxed">
+              Rent simple, easy-to-use pocket cameras that are super portable.
+              Perfect for capturing everyday moments, aesthetic snaps, and
+              casual trips without the bulk.
+            </p>
+            <a
+              href="rent-catalog.html"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-red-400 transition-colors"
+            >
+              View Catalog <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Photobox Card -->
+          <div
+            class="group p-8 rounded-3xl bg-neutral-700/30 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <div
+              class="w-14 h-14 rounded-2xl bg-red-900/20 text-red-500 flex items-center justify-center mb-6 group-hover:bg-red-900 group-hover:text-white transition-colors"
+            >
+              <i data-lucide="image" class="w-7 h-7"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-white mb-3">Photobox</h3>
+            <p class="text-neutral-400 mb-8 leading-relaxed">
+              Bring the fun to any event with our modern photobox setups.
+              Instant prints, digital copies, and customizable templates for
+              your guests.
+            </p>
+            <a
+              href="https://photobox.soreaja.my.id"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-red-400 transition-colors"
+            >
+              Try Photobox <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <img
+      src="Logo_border_typo.webp"
+      alt="Logo SoreAja Typography"
+      width="180"
+      class="fixed bottom-0 right-0 m-6 hidden md:block"
+    />
+    <div class="p-2 text-white">
+      <p class="text-sm" id="copyright">
+        &copy; 2026 SoreAja. All rights reserved.
+      </p>
+    </div>
+    <script>
+      // Initialize Lucide icons
+      lucide.createIcons();
+
+      // Update copyright year
+      document.getElementById("copyright").innerHTML =
+        "&copy; " + new Date().getFullYear() + " SoreAja. All rights reserved.";
+    </script>
+  </body>
+</html>
