@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="192.png" />
+    <link rel="icon" type="image/png" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,8 +11,11 @@
     />
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/lucide@latest"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SoreAja</title>
+
+    <meta name="theme-color" content="#5C0F13" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="SoreAja" />
@@ -29,6 +32,18 @@
       property="og:image"
       content="https://soreaja.my.id/og_thumbnail.png"
     />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Digicam Rental & Photobox" />
+    <meta
+      name="twitter:description"
+      content="Affordable digicam rental and photobox service."
+    />
+    <meta
+      name="twitter:image"
+      content="https://soreaja.my.id/og_thumbnail.png"
+    />
+
     <script
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3052628124471040"
@@ -259,6 +274,27 @@
       // Update copyright year
       document.getElementById("copyright").innerHTML =
         "&copy; " + new Date().getFullYear() + " SoreAja. All rights reserved.";
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SoreAja",
+        "url": "https://soreaja.my.id",
+        "logo": "https://soreaja.my.id/Logo_border.webp"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Digicam Rental & Photobox Service",
+        "provider": {
+          "@type": "Organization",
+          "name": "SoreAja"
+        },
+        "areaServed": "Indonesia"
+      }
     </script>
   </body>
 </html>
