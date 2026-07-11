@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sue+Ellen+Francisco&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SoreAja</title>
@@ -36,6 +41,7 @@
     >
       <a href="index.html"><h1 class="text-3xl font-sef mt-1">SOREAJA</h1></a>
       <button
+        aria-label="Open Menu Button"
         class="cursor-pointer w-10 md:hidden flex"
         popovertarget="menu-popover"
       >
@@ -109,6 +115,9 @@
             src="Logo_border.webp"
             alt="Logo SoreAja"
             width="120"
+            rel="preload"
+            as="image"
+            fetchpriority="high"
             class="animate-[wiggle_1s_steps(2,end)_infinite]"
           />
           <h1 class="text-6xl font-sef text-white">SOREAJA</h1>
@@ -232,6 +241,9 @@
     <img
       src="Logo_border_typo.webp"
       alt="Logo SoreAja Typography"
+      rel="preload"
+      as="image"
+      fetchpriority="high"
       width="180"
       class="fixed bottom-0 right-0 m-6 hidden md:block"
     />
