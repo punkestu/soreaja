@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -55,7 +59,7 @@
     <header
       class="fixed z-50 top-0 left-0 w-full bg-red-900 p-2 px-4 text-white flex justify-between sm:items-center flex-row gap-3"
     >
-      <a href="index.html"><h1 class="text-3xl font-sef mt-1">SOREAJA</h1></a>
+      <a href="index.html" class="text-3xl font-sef mt-1">SOREAJA</a>
       <button
         aria-label="Open Menu Button"
         class="cursor-pointer w-10 md:hidden flex"
@@ -94,29 +98,29 @@
       class="fixed top-1/2 left-1/2 -translate-1/2 bg-white/0"
     >
       <div
-        class="bg-red-900 p-4 rounded-lg shadow-lg flex flex-col gap-2 text-white border-2 border-white"
+        class="bg-red-900 p-2 rounded-lg shadow-lg flex flex-col gap-2 text-white border-2 border-white"
       >
         <a
-          class="underline hover:text-yellow-300 transition-colors"
+          class="border border-yellow-500 px-4 py-2 rounded-md hover:text-yellow-300 transition-colors"
           href="https://soreaja.my.id/privacy_policy.html"
-          >Privacy Policy</a
+          >- Privacy Policy</a
         >
         <a
-          class="underline hover:text-yellow-300 transition-colors"
-          href="rent-catalog.html"
-          >Catalog</a
+          class="border border-yellow-500 px-4 py-2 rounded-md hover:text-yellow-300 transition-colors"
+          href="https://soreaja.my.id/rent-catalog.html"
+          >- Catalog</a
         >
         <a
-          class="underline hover:text-yellow-300 transition-colors"
+          class="border border-yellow-500 px-4 py-2 rounded-md hover:text-yellow-300 transition-colors"
           href="https://photobox.soreaja.my.id"
-          >Photobox</a
+          >- Photobox</a
         >
         <a
           href="https://saweria.co/bpangestu"
-          class="border rounded-lg px-2 py-1 bg-yellow-300 text-black hover:bg-yellow-400 transition-colors"
+          class="border border-yellow-500 px-4 py-2 rounded-md text-yellow-400 hover:text-yellow-300 transition-colors"
           href="https://soreaja.my.id/privacy_policy.html"
         >
-          Saweria ☕️
+          - Saweria ☕️
         </a>
       </div>
     </div>
@@ -137,7 +141,11 @@
             fetchpriority="high"
             class="animate-[wiggle_1s_steps(2,end)_infinite]"
           />
-          <h2 class="text-6xl font-sef text-white">SOREAJA</h2>
+          <p class="text-6xl font-sef text-white">SOREAJA</p>
+          <h1 class="sr-only">
+            SOREAJA - Rental Pocket Camera, Digicam, and Photobox Services in
+            Indonesia
+          </h1>
         </div>
         <div
           class="text-white bg-slate-800/25 px-3 py-2 rounded-full text-sm flex items-center gap-2"
@@ -155,7 +163,7 @@
           class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start pt-4"
         >
           <a
-            href="rent-catalog.html"
+            href="https://soreaja.my.id/rent-catalog.html"
             class="w-full sm:w-auto px-8 py-4 bg-white text-neutral-950 font-semibold rounded-full flex items-center justify-center gap-2 hover:bg-neutral-200 transition-all hover:scale-105 active:scale-95"
           >
             <i data-lucide="camera" class="w-5 h-5"></i>
