@@ -8,7 +8,9 @@
     "calendarUrl": "https://calendar.google.com/calendar/embed?src=47db55856db7754fb480d9abff66fddd02913556a42d8912583fa07acd3c6fdd%40group.calendar.google.com&ctz=UTC",
     "image": "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/olympusv180/face2.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/olympusv180/face1.jpeg"
+      "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/olympusv180/face1.jpeg",
+      "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/olympusv180/prev1.jpeg",
+      "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/olympusv180/prev2.jpeg"
     ]
   },
   {
@@ -28,7 +30,12 @@
     "pricePerDay": 40000,
     "calendarUrl": "https://calendar.google.com/calendar/embed?src=c672d52ab2ebb1cd276d9e7ec0295ddc75b7d25f2c853dc31c26c3ba044aa655%40group.calendar.google.com&ctz=UTC",
     "image": "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/sonydscw530/face.jpg",
-    "images": []
+    "images": [
+      "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/sonydscw530/prev1.jpg",
+      "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/sonydscw530/prev2.jpg",
+      "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/sonydscw530/prev3.jpg",
+      "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/sonydscw530/prev4.jpg"
+    ]
   },
   {
     "id": "casio-exilim-zs5",
