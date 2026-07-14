@@ -23,11 +23,20 @@
   },
   {
     "id": "sony-cybershot-dsc-w530",
-    "name": "Sony CyberShot DSC-W530",
+    "name": "Sony CyberShot DSC-W530 (COMING SOON)",
     "description": "Jangan biarkan momen berharga berlalu begitu saja. Sony Cyber-shot DSC-W530 hadir dengan desain praktis dan pengoperasian sederhana, siap menemani setiap perjalanan dan kenangan Anda.",
     "pricePerDay": 40000,
     "calendarUrl": "https://calendar.google.com/calendar/embed?src=c672d52ab2ebb1cd276d9e7ec0295ddc75b7d25f2c853dc31c26c3ba044aa655%40group.calendar.google.com&ctz=UTC",
     "image": "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/sonydscw530/face.jpg",
+    "images": []
+  },
+  {
+    "id": "casio-exilim-zs5",
+    "name": "Casio exilim ZS5 (COMING SOON)",
+    "description": "Tangkap setiap momen berharga tanpa perlu ribet. Casio Exilim ZS5 hadir dengan bodi ringkas dan kemudahan memotret instan, menjadikannya teman setia untuk merekam setiap kenangan manis Anda.",
+    "pricePerDay": 40000,
+    "calendarUrl": "https://calendar.google.com/calendar/embed?src=2ac91f68011fc53fd4b2e93e4c0161483de1ff697896f528e3c0a706a8b9e1c1@group.calendar.google.com&ctz=UTC",
+    "image": "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/casioexilim/face.jpg",
     "images": []
   }
 ]
