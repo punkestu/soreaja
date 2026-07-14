@@ -29,8 +29,14 @@
     <header
       class="fixed z-50 top-0 left-0 w-full bg-red-900 p-2 px-4 text-white flex justify-between sm:items-center flex-row gap-3"
     >
-      <a href="index.html"><h1 class="text-3xl font-sef mt-1">SOREAJA</h1></a>
+      <a
+        rel="canonical"
+        href="https://soreaja.my.id"
+        class="text-3xl font-sef mt-1"
+        >SOREAJA</a
+      >
       <button
+        aria-label="Open Menu Button"
         class="cursor-pointer w-10 md:hidden flex"
         popovertarget="menu-popover"
       >
@@ -46,21 +52,55 @@
         class="hidden md:flex gap-4 items-center justify-between grow sm:grow-0"
       >
         <a class="underline" href="https://soreaja.my.id/privacy_policy.html">
-          Privacy Policy
+          Kebijakan Privasi
         </a>
-        <a class="underline" href="rent-catalog.html"> Catalog </a>
+        <a class="underline" href="rent-catalog.html"> Katalog Digicam </a>
         <a class="underline" href="https://photobox.soreaja.my.id">
           Photobox
         </a>
         <a
           href="https://saweria.co/bpangestu"
           class="border rounded-lg px-2 py-1 bg-yellow-300 text-black"
-          href="https://soreaja.my.id/privacy_policy.html"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Saweria ☕️
         </a>
       </aside>
     </header>
+    <div
+      popover="auto"
+      id="menu-popover"
+      class="fixed top-1/2 left-1/2 -translate-1/2 bg-white/0"
+    >
+      <div
+        class="bg-red-900 p-2 rounded-lg shadow-lg flex flex-col gap-2 text-white border-2 border-white"
+      >
+        <a
+          class="border border-yellow-500 px-4 py-2 rounded-md hover:text-yellow-300 transition-colors"
+          href="https://soreaja.my.id/privacy_policy.html"
+          >- Kebijakan Privasi</a
+        >
+        <a
+          class="border border-yellow-500 px-4 py-2 rounded-md hover:text-yellow-300 transition-colors"
+          href="https://soreaja.my.id/rent-catalog.html"
+          >- Katalog Digicam</a
+        >
+        <a
+          class="border border-yellow-500 px-4 py-2 rounded-md hover:text-yellow-300 transition-colors"
+          href="https://photobox.soreaja.my.id"
+          >- Photobox</a
+        >
+        <a
+          href="https://saweria.co/bpangestu"
+          class="border border-yellow-500 px-4 py-2 rounded-md text-yellow-400 hover:text-yellow-300 transition-colors"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          - Saweria ☕️
+        </a>
+      </div>
+    </div>
     <div
       popover="auto"
       id="menu-popover"
