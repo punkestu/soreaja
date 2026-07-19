@@ -37,6 +37,10 @@
         display: none;
     }
 
+    summary p {
+        max-width: calc(100% - (var(--spacing)*7));
+    }
+
     .caret {
         transition: transform 0.2s ease;
     }
