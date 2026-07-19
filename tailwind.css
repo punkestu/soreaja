@@ -26,3 +26,22 @@
         }
     }
 }
+
+@layer base {
+    summary {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .caret {
+        transition: transform 0.2s ease;
+    }
+
+    details[open] .caret {
+        transform: rotate(-90deg);
+    }
+}
