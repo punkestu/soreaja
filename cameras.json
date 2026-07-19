@@ -28,18 +28,8 @@
     ]
   },
   {
-    "id": "rollei-compactline-302",
-    "name": "Rollei Compactline 302 (SEDANG DISERVIS)",
-    "description": "Temukan keseruan memotret dengan Rollei Compactline 302. Desain ringkas, mudah digunakan, dan siap mengabadikan setiap momen spontan dengan hasil yang jernih dan penuh cerita.",
-    "pricePerDay": 35000,
-    "youtubeUrl": "https://vt.tiktok.com/ZSCGgqEyQ/",
-    "calendarUrl": "https://calendar.google.com/calendar/embed?src=608f2527748c1b354071d1018bd61ec54f3521cd39243256f86b8ac9a312a6ec%40group.calendar.google.com&ctz=UTC",
-    "image": "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/rolleicompactline302/face1.jpeg",
-    "images": []
-  },
-  {
     "id": "sony-cybershot-dsc-w530",
-    "name": "Sony CyberShot DSC-W530 (SEDANG DISERVIS)",
+    "name": "Sony CyberShot DSC-W530",
     "description": "Jangan biarkan momen berharga berlalu begitu saja. Sony Cyber-shot DSC-W530 hadir dengan desain praktis dan pengoperasian sederhana, siap menemani setiap perjalanan dan kenangan Anda.",
     "pricePerDay": 40000,
     "calendarUrl": "https://calendar.google.com/calendar/embed?src=c672d52ab2ebb1cd276d9e7ec0295ddc75b7d25f2c853dc31c26c3ba044aa655%40group.calendar.google.com&ctz=UTC",
@@ -50,5 +40,15 @@
       "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/sonydscw530/prev3.webp",
       "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/sonydscw530/prev4.webp"
     ]
+  },
+  {
+    "id": "rollei-compactline-302",
+    "name": "Rollei Compactline 302 (SEDANG DISERVIS)",
+    "description": "Temukan keseruan memotret dengan Rollei Compactline 302. Desain ringkas, mudah digunakan, dan siap mengabadikan setiap momen spontan dengan hasil yang jernih dan penuh cerita.",
+    "pricePerDay": 35000,
+    "youtubeUrl": "https://vt.tiktok.com/ZSCGgqEyQ/",
+    "calendarUrl": "https://calendar.google.com/calendar/embed?src=608f2527748c1b354071d1018bd61ec54f3521cd39243256f86b8ac9a312a6ec%40group.calendar.google.com&ctz=UTC",
+    "image": "https://raw.githubusercontent.com/punkestu/soreaja-assets/refs/heads/main/rolleicompactline302/face1.jpeg",
+    "images": []
   }
 ]
