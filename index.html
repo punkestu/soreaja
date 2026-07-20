@@ -280,15 +280,17 @@
           <p class="text-6xl font-sef text-white">SOREAJA</p>
         </div>
         <div
-          class="text-white bg-slate-800/25 px-3 py-2 rounded-full text-sm flex items-center gap-2"
+          class="text-white bg-slate-800/25 px-3 py-2 rounded-full text-xs md:text-sm flex items-center gap-2"
         >
           <div class="bg-green-500 w-2 h-2 rounded-full animate-pulse"></div>
           Bermarkas di Banyuwangi, Jawa Timur
         </div>
-        <h1 class="text-xl text-white text-center font-semibold">
+        <h1 class="text-2xl text-white text-center font-semibold">
           Sewa Digicam dan Layanan Photobox di Banyuwangi
         </h1>
-        <p class="text-white/80 text-center w-full md:w-1/2 xl:w-1/3">
+        <p
+          class="text-sm md:text-base text-white/80 text-center w-full md:w-1/2 xl:w-1/3"
+        >
           Setiap momen berhargamu pantas dikenang dengan indah. Mulai dari
           petualangan seru yang spontan sampai perayaan sekali seumur hidup,
           SoreAja hadir buat bantu kamu mengabadikan setiap senyum, tawa, dan
@@ -377,7 +379,7 @@
 
           <!-- Gallery Card -->
           <div
-            class="md:col-span-2 group p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+            class="md:col-span-full group p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
           >
             <div
               class="w-14 h-14 rounded-2xl bg-red-900/20 text-red-500 flex items-center justify-center mb-6 group-hover:bg-red-900 group-hover:text-white transition-colors"
@@ -802,15 +804,17 @@
       <section
         class="grid grid-cols-2 md:grid-cols-3 place-items-center items-start"
       >
-        <img
-          src="Logo_border_typo.webp"
-          alt="Logo SoreAja Typography - Sewa Digicam dan Layanan Photobox di Banyuwangi"
-          rel="preload"
-          as="image"
-          fetchpriority="high"
-          width="180"
-          class="m-6 col-span-full"
-        />
+        <a href="https://soreaja.my.id" class="col-span-full">
+          <img
+            src="Logo_border_typo.webp"
+            alt="Logo SoreAja Typography - Sewa Digicam dan Layanan Photobox di Banyuwangi"
+            rel="preload"
+            as="image"
+            fetchpriority="high"
+            width="180"
+            class="m-6"
+          />
+        </a>
         <ul>
           <li class="font-semibold text-base mb-1">Bagian</li>
           <li>
@@ -864,7 +868,8 @@
         </ul>
       </section>
       <p class="text-sm text-center" id="copyright">
-        &copy; 2026 SoreAja. Hak cipta dilindungi.
+        &copy; 2026 <a href="https://soreaja.my.id">SoreAja</a>. Hak cipta
+        dilindungi.
       </p>
     </footer>
     <script>
@@ -875,7 +880,7 @@
       document.getElementById("copyright").innerHTML =
         "&copy; " +
         new Date().getFullYear() +
-        " SoreAja. Hak cipta dilindungi.";
+        " <a href='https://soreaja.my.id'>SoreAja</a>. Hak cipta dilindungi.";
     </script>
     <script>
       AOS.init();
