@@ -34,6 +34,15 @@
     ]
   },
   {
+    "id": "canon-powershoot-a2500",
+    "name": "Canon Powershoot A2500",
+    "description": "Hasilkan foto dengan nuansa digicam klasik yang sedang tren! Canon PowerShot A2500 adalah kamera saku digital yang sangat ringkas, mudah digunakan (Point & Shoot), dan cocok untuk mengabadikan momen keseharian, liburan, hingga acara hangout bersama teman.",
+    "pricePerDay": 40000,
+    "calendarUrl": "https://calendar.google.com/calendar/embed?src=7edbccf6e68433eb86aadf6d5e96384634dc06df0dde0fadab69c464ac17d0fc@group.calendar.google.com&ctz=UTC",
+    "image": "/cameras/canon/face.jpeg",
+    "images": []
+  },
+  {
     "id": "sony-cybershot-dsc-w530",
     "name": "Sony CyberShot DSC-W530",
     "description": "Jangan biarkan momen berharga berlalu begitu saja. Sony Cyber-shot DSC-W530 hadir dengan desain praktis dan pengoperasian sederhana, siap menemani setiap perjalanan dan kenangan Anda.",
