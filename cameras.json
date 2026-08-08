@@ -40,7 +40,12 @@
     "pricePerDay": 40000,
     "calendarUrl": "https://calendar.google.com/calendar/embed?src=7edbccf6e68433eb86aadf6d5e96384634dc06df0dde0fadab69c464ac17d0fc@group.calendar.google.com&ctz=UTC",
     "image": "/cameras/canon/face.jpeg",
-    "images": []
+    "images": [
+      "https://drive.google.com/thumbnail?id=1Rr7_nLgaYIV_v-HM-BBRJFHTRgXD3kLv&sz=w800",
+      "https://drive.google.com/thumbnail?id=1Ol0p3ZVahfEdSsQ6Kuz8HfsSUzNpCRYr&sz=w800",
+      "https://drive.google.com/thumbnail?id=1jSeM-iQtPr3EcanT8xYDOmXe2ky-ziEc&sz=w800",
+      "https://drive.google.com/thumbnail?id=1P8oiq9YLhufN3mRNJ29H_nXk7OHKKYxo&sz=w800"
+    ]
   },
   {
     "id": "sony-cybershot-dsc-w530",
