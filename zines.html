@@ -201,6 +201,12 @@
 
       <section class="py-12 px-2" id="steps" data-aos="fade-up-left">
         <div class="text-center mb-16 flex flex-col items-center">
+          <span
+            class="inline-flex items-center gap-2 text-yellow-300 bg-yellow-300/10 border border-yellow-300/40 rounded-full px-4 py-1.5 text-xs uppercase tracking-widest mb-4"
+          >
+            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+            4 Langkah Gampang
+          </span>
           <h2 class="text-3xl font-bold text-white mb-4">
             Gimana Cara Bikin Zines?
           </h2>
@@ -210,112 +216,131 @@
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-4">
-          <!-- Step 1 -->
+        <div class="relative max-w-5xl mx-auto mt-6">
+          <!-- Connector line: desktop -->
           <div
-            class="group p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
-          >
-            <div
-              class="flex items-start justify-between mb-6"
-            >
-              <div
-                class="w-14 h-14 rounded-2xl bg-red-900/20 text-red-500 flex items-center justify-center group-hover:bg-red-900 group-hover:text-white transition-colors"
-              >
-                <i data-lucide="camera" class="w-7 h-7"></i>
-              </div>
-              <span
-                class="text-6xl font-sef text-red-500/30 group-hover:text-red-500/60 transition-colors"
-                >01</span
-              >
-            </div>
-            <h3 class="text-2xl font-bold text-white mb-3">
-              Sewa Kamera
-              <span class="text-sm font-normal text-white/60">(jika ingin)</span>
-            </h3>
-            <p class="text-white/80 leading-relaxed">
-              Belum punya digicam? Gampang, sewa dulu di SoreAja buat hunting
-              foto-foto estetikmu. Tapi kalau kamu cuma mau cetak foto yang
-              udah ada, langkah ini bisa langsung kamu skip!
-            </p>
-          </div>
+            class="hidden md:block absolute top-8 left-[12.5%] right-[12.5%] h-px bg-linear-to-r from-transparent via-yellow-300/40 to-transparent"
+          ></div>
+          <!-- Connector line: mobile -->
+          <div
+            class="md:hidden absolute left-7 top-6 bottom-6 w-px bg-linear-to-b from-transparent via-yellow-300/40 to-transparent"
+          ></div>
 
-          <!-- Step 2 -->
-          <div
-            class="group p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
-          >
+          <div class="grid md:grid-cols-4 gap-10 md:gap-6">
+            <!-- Step 1 -->
             <div
-              class="flex items-start justify-between mb-6"
+              class="group relative flex md:flex-col gap-5 md:gap-0 md:items-center md:text-center"
             >
               <div
-                class="w-14 h-14 rounded-2xl bg-red-900/20 text-red-500 flex items-center justify-center group-hover:bg-red-900 group-hover:text-white transition-colors"
+                class="relative z-10 shrink-0 w-14 h-14 md:w-16 md:h-16 rounded-full bg-red-950/80 border-2 border-red-500/60 flex items-center justify-center shadow-lg transition-all duration-300 group-hover:-translate-y-1 group-hover:border-yellow-300 group-hover:shadow-yellow-300/20"
               >
-                <i data-lucide="upload" class="w-7 h-7"></i>
+                <i
+                  data-lucide="camera"
+                  class="w-6 h-6 md:w-7 md:h-7 text-red-300 group-hover:text-yellow-300 transition-colors"
+                ></i>
               </div>
-              <span
-                class="text-6xl font-sef text-red-500/30 group-hover:text-red-500/60 transition-colors"
-                >02</span
-              >
+              <div class="md:mt-6">
+                <span
+                  class="block font-sef text-4xl md:text-5xl leading-none text-yellow-300/80 mb-2"
+                  >01</span
+                >
+                <h3 class="text-xl font-bold text-white mb-2 leading-snug">
+                  Sewa Kamera
+                  <span class="block text-sm font-normal text-white/60"
+                    >(jika ingin)</span
+                  >
+                </h3>
+                <p class="text-white/70 text-sm leading-relaxed">
+                  Belum punya digicam? Gampang, sewa dulu di SoreAja buat
+                  hunting foto-foto estetikmu. Tapi kalau kamu cuma mau cetak
+                  foto yang udah ada, langkah ini bisa langsung kamu skip!
+                </p>
+              </div>
             </div>
-            <h3 class="text-2xl font-bold text-white mb-3">Kirim Foto</h3>
-            <p class="text-white/80 leading-relaxed">
-              Kumpulin dan kirim foto-foto terbaikmu — boleh hasil jepretan
-              kamera yang kamu sewa di SoreAja, dari kamera pribadi, atau dari
-              HP. Kirim via WhatsApp bareng konsep zines yang kamu mau.
-            </p>
-          </div>
 
-          <!-- Step 3 -->
-          <div
-            class="group p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
-          >
+            <!-- Step 2 -->
             <div
-              class="flex items-start justify-between mb-6"
+              class="group relative flex md:flex-col gap-5 md:gap-0 md:items-center md:text-center"
             >
               <div
-                class="w-14 h-14 rounded-2xl bg-red-900/20 text-red-500 flex items-center justify-center group-hover:bg-red-900 group-hover:text-white transition-colors"
+                class="relative z-10 shrink-0 w-14 h-14 md:w-16 md:h-16 rounded-full bg-red-950/80 border-2 border-red-500/60 flex items-center justify-center shadow-lg transition-all duration-300 group-hover:-translate-y-1 group-hover:border-yellow-300 group-hover:shadow-yellow-300/20"
               >
-                <i data-lucide="printer" class="w-7 h-7"></i>
+                <i
+                  data-lucide="upload"
+                  class="w-6 h-6 md:w-7 md:h-7 text-red-300 group-hover:text-yellow-300 transition-colors"
+                ></i>
               </div>
-              <span
-                class="text-6xl font-sef text-red-500/30 group-hover:text-red-500/60 transition-colors"
-                >03</span
-              >
+              <div class="md:mt-6">
+                <span
+                  class="block font-sef text-4xl md:text-5xl leading-none text-yellow-300/80 mb-2"
+                  >02</span
+                >
+                <h3 class="text-xl font-bold text-white mb-2 leading-snug">
+                  Kirim Foto
+                </h3>
+                <p class="text-white/70 text-sm leading-relaxed">
+                  Kumpulin dan kirim foto-foto terbaikmu — boleh hasil jepretan
+                  kamera yang kamu sewa di SoreAja, dari kamera pribadi, atau
+                  dari HP. Kirim via WhatsApp bareng konsep zines yang kamu mau.
+                </p>
+              </div>
             </div>
-            <h3 class="text-2xl font-bold text-white mb-3">
-              Zines Diproses & Dicetak
-            </h3>
-            <p class="text-white/80 leading-relaxed">
-              Tim kami bakal seleksi, tata, dan cetak fotomu jadi zines yang
-              rapi dan aesthetic. Mau tema tertentu, ukuran mini, atau layout
-              khusus? Tinggal bilang, kami wujudkan.
-            </p>
-          </div>
 
-          <!-- Step 4 -->
-          <div
-            class="group p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
-          >
+            <!-- Step 3 -->
             <div
-              class="flex items-start justify-between mb-6"
+              class="group relative flex md:flex-col gap-5 md:gap-0 md:items-center md:text-center"
             >
               <div
-                class="w-14 h-14 rounded-2xl bg-red-900/20 text-red-500 flex items-center justify-center group-hover:bg-red-900 group-hover:text-white transition-colors"
+                class="relative z-10 shrink-0 w-14 h-14 md:w-16 md:h-16 rounded-full bg-red-950/80 border-2 border-red-500/60 flex items-center justify-center shadow-lg transition-all duration-300 group-hover:-translate-y-1 group-hover:border-yellow-300 group-hover:shadow-yellow-300/20"
               >
-                <i data-lucide="truck" class="w-7 h-7"></i>
+                <i
+                  data-lucide="printer"
+                  class="w-6 h-6 md:w-7 md:h-7 text-red-300 group-hover:text-yellow-300 transition-colors"
+                ></i>
               </div>
-              <span
-                class="text-6xl font-sef text-red-500/30 group-hover:text-red-500/60 transition-colors"
-                >04</span
-              >
+              <div class="md:mt-6">
+                <span
+                  class="block font-sef text-4xl md:text-5xl leading-none text-yellow-300/80 mb-2"
+                  >03</span
+                >
+                <h3 class="text-xl font-bold text-white mb-2 leading-snug">
+                  Zines Diproses & Dicetak
+                </h3>
+                <p class="text-white/70 text-sm leading-relaxed">
+                  Tim kami bakal seleksi, tata, dan cetak fotomu jadi zines yang
+                  rapi dan aesthetic. Mau tema tertentu, ukuran mini, atau
+                  layout khusus? Tinggal bilang, kami wujudkan.
+                </p>
+              </div>
             </div>
-            <h3 class="text-2xl font-bold text-white mb-3">
-              Zines Dikirim ke Alamatmu
-            </h3>
-            <p class="text-white/80 leading-relaxed">
-              Zines yang udah jadi langsung kami kirim ke alamat kamu. Tinggal
-              tunggu di rumah, buka paketnya, dan nikmati foto-foto
-              kesayanganmu dalam wujud fisik yang kece!
-            </p>
+
+            <!-- Step 4 -->
+            <div
+              class="group relative flex md:flex-col gap-5 md:gap-0 md:items-center md:text-center"
+            >
+              <div
+                class="relative z-10 shrink-0 w-14 h-14 md:w-16 md:h-16 rounded-full bg-red-950/80 border-2 border-red-500/60 flex items-center justify-center shadow-lg transition-all duration-300 group-hover:-translate-y-1 group-hover:border-yellow-300 group-hover:shadow-yellow-300/20"
+              >
+                <i
+                  data-lucide="truck"
+                  class="w-6 h-6 md:w-7 md:h-7 text-red-300 group-hover:text-yellow-300 transition-colors"
+                ></i>
+              </div>
+              <div class="md:mt-6">
+                <span
+                  class="block font-sef text-4xl md:text-5xl leading-none text-yellow-300/80 mb-2"
+                  >04</span
+                >
+                <h3 class="text-xl font-bold text-white mb-2 leading-snug">
+                  Zines Dikirim ke Alamatmu
+                </h3>
+                <p class="text-white/70 text-sm leading-relaxed">
+                  Zines yang udah jadi langsung kami kirim ke alamat kamu.
+                  Tinggal tunggu di rumah, buka paketnya, dan nikmati foto-foto
+                  kesayanganmu dalam wujud fisik yang kece!
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
