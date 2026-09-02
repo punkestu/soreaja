@@ -48,4 +48,9 @@
     details[open] .caret {
         transform: rotate(-90deg);
     }
+
+    #menu-popover::backdrop {
+        background-color: rgb(0 0 0 / 0.5);
+        backdrop-filter: blur(4px);
+    }
 }
