@@ -262,7 +262,7 @@
       <section
         data-aos="fade-down"
         id="hero"
-        class="w-full min-h-[80vh] flex flex-col items-center justify-center gap-2"
+        class="w-full min-h-[85vh] flex flex-col items-center justify-center gap-5 text-center"
       >
         <div
           class="flex flex-col md:flex-row items-center justify-center gap-4"
@@ -276,62 +276,168 @@
             fetchpriority="high"
             class="animate-[wiggle_1s_steps(2,end)_infinite]"
           />
-          <p class="text-6xl font-sef text-white">SOREAJA</p>
+          <p class="text-6xl md:text-8xl font-sef text-white leading-none">
+            SOREAJA
+          </p>
         </div>
         <div
-          class="text-white bg-slate-800/25 px-3 py-2 rounded-full text-xs md:text-sm flex items-center gap-2"
+          class="text-white bg-slate-800/25 px-4 py-2 rounded-full text-xs md:text-sm flex items-center gap-2 border border-white/10"
         >
           <div class="bg-green-500 w-2 h-2 rounded-full animate-pulse"></div>
           Bermarkas di Banyuwangi, Jawa Timur
         </div>
-        <h1 class="text-2xl text-white text-center font-semibold">
-          Sewa Digicam dan Layanan Photobox di Banyuwangi
+        <h1 class="text-2xl md:text-4xl text-white font-bold max-w-3xl mx-auto">
+          Sewa Digicam &amp; Layanan Photobox di Banyuwangi
         </h1>
-        <p
-          class="text-sm md:text-base text-white/80 text-center w-full md:w-1/2 xl:w-1/3"
-        >
+        <p class="text-sm md:text-base text-white/80 max-w-2xl mx-auto">
           Setiap momen berhargamu pantas dikenang dengan indah. Mulai dari
           petualangan seru yang spontan sampai perayaan sekali seumur hidup,
           SoreAja hadir buat bantu kamu mengabadikan setiap senyum, tawa, dan
           memori dengan sewa digicam dan serunya photobox online interaktif.
         </p>
-        <div
-          class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start pt-4"
+        <a
+          href="#why"
+          class="text-white/60 hover:text-white transition-colors mt-6"
+          aria-label="Scroll ke bawah"
         >
-          <a
-            href="https://soreaja.my.id/rent-catalog.html"
-            class="w-full sm:w-auto px-8 py-4 bg-white text-neutral-950 font-semibold rounded-full flex items-center justify-center gap-2 hover:bg-neutral-200 transition-all hover:scale-105 active:scale-95"
-          >
-            <i data-lucide="camera" class="w-5 h-5"></i>
-            Sewa Digicam
-          </a>
-          <a
-            href="https://photobox.soreaja.my.id"
-            class="w-full sm:w-auto px-8 py-4 bg-red-900 text-white font-semibold rounded-full flex items-center justify-center gap-2 hover:bg-red-800 transition-all hover:scale-105 active:scale-95 border border-red-800"
-          >
-            <i data-lucide="image" class="w-5 h-5"></i>
-            Coba Photobox
-          </a>
-        </div>
+          <i data-lucide="chevron-down" class="w-6 h-6 animate-bounce"></i>
+        </a>
       </section>
 
-      <section class="py-12 px-2" id="services" data-aos="fade-up-left">
-        <div class="text-center mb-16 flex flex-col items-center">
-          <h2 class="text-3xl font-bold text-white mb-4">
-            Abadikan Setiap Momen, dengan Caramu
+      <section class="py-16 px-2" id="why" data-aos="fade-up">
+        <div class="text-center mb-12 flex flex-col items-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+            Kenapa SoreAja?
           </h2>
           <p class="text-white/80 max-w-2xl">
-            Mau jalan-jalan santai ditemani digicam atau seru-seruan di acara
-            pakai photobox online, kami bikin momen menyimpan kenangan jadi
-            lebih gampang, asyik, dan pastinya berkesan.
+            Bukan cuma nyediain kamera, kami mau setiap momenmu terabadikan
+            dengan nyaman, gampang, dan pastinya bikin betah. Ini alasan kenapa
+            makin banyak yang mampir ke SoreAja.
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-4">
-          <!-- Camera Rent Card -->
-          <div
-            class="group p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+          <article
+            class="group p-6 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
           >
+            <div
+              class="w-12 h-12 rounded-xl bg-red-900/20 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-900 group-hover:text-white transition-colors"
+            >
+              <i data-lucide="wallet" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Harga Bersahabat</h3>
+            <p class="text-sm text-white/80 leading-relaxed">
+              Sewa digicam dengan harga yang ramah di kantong, cocok buat
+              liburan santai maupun momen spesial.
+            </p>
+          </article>
+
+          <article
+            class="group p-6 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-red-900/20 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-900 group-hover:text-white transition-colors"
+            >
+              <i data-lucide="package-check" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">
+              Kamera Terawat &amp; Lengkap
+            </h3>
+            <p class="text-sm text-white/80 leading-relaxed">
+              Unit selalu dicek sebelum disewa, lengkap dengan baterai, memory
+              card, strap, dan pouch.
+            </p>
+          </article>
+
+          <article
+            class="group p-6 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-red-900/20 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-900 group-hover:text-white transition-colors"
+            >
+              <i data-lucide="message-circle-heart" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">
+              Fast Respon &amp; Ramah
+            </h3>
+            <p class="text-sm text-white/80 leading-relaxed">
+              Admin responsif dan ramah, siap bantu dari tanya-tanya sampai
+              kamera kembali ke tangan kami.
+            </p>
+          </article>
+
+          <article
+            class="group p-6 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-red-900/20 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-900 group-hover:text-white transition-colors"
+            >
+              <i data-lucide="car-front" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">
+              Antar-Jemput Fleksibel
+            </h3>
+            <p class="text-sm text-white/80 leading-relaxed">
+              Penjemputan dan pengantaran kamera bisa diatur fleksibel sesuai
+              kesepakatan dengan admin.
+            </p>
+          </article>
+
+          <article
+            class="group p-6 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-red-900/20 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-900 group-hover:text-white transition-colors"
+            >
+              <i data-lucide="sparkles" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Bebas Request</h3>
+            <p class="text-sm text-white/80 leading-relaxed">
+              Mau template photobox custom atau konsep sesi spesial? Tinggal
+              request, kami wujudkan.
+            </p>
+          </article>
+
+          <article
+            class="group p-6 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-red-900/20 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-900 group-hover:text-white transition-colors"
+            >
+              <i data-lucide="shield-check" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">
+              Syarat Mudah &amp; Aman
+            </h3>
+            <p class="text-sm text-white/80 leading-relaxed">
+              Cukup titip identitas asli yang masih berlaku, sewa aman dengan
+              jaminan yang jelas.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="py-16 px-2" id="services" data-aos="fade-up-left">
+        <div class="text-center mb-12 flex flex-col items-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+            Kami Siap Menemanimu
+          </h2>
+          <p class="text-white/80 max-w-2xl">
+            Pilih layanan yang sesuai gaya kamu. Mau jalan-jalan santai ditemani
+            digicam, seru-seruan di acara pakai photobox online, atau karya
+            visualmu tampil lebih estetik — semua bisa di SoreAja.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-4 max-w-5xl mx-auto">
+          <!-- 01 Sewa Digicam -->
+          <article
+            class="group relative overflow-hidden p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <span
+              class="absolute -top-4 right-4 text-8xl font-sef text-white/10 group-hover:text-yellow-300/30 transition-colors select-none pointer-events-none"
+              >01</span
+            >
             <div
               class="w-14 h-14 rounded-2xl bg-red-900/20 text-red-500 flex items-center justify-center mb-6 group-hover:bg-red-900 group-hover:text-white transition-colors"
             >
@@ -350,12 +456,16 @@
             >
               Lihat Katalog <i data-lucide="arrow-right" class="w-4 h-4"></i>
             </a>
-          </div>
+          </article>
 
-          <!-- Photobox Card -->
-          <div
-            class="group p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          <!-- 02 Layanan Photobox -->
+          <article
+            class="group relative overflow-hidden p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
           >
+            <span
+              class="absolute -top-4 right-4 text-8xl font-sef text-white/10 group-hover:text-yellow-300/30 transition-colors select-none pointer-events-none"
+              >02</span
+            >
             <div
               class="w-14 h-14 rounded-2xl bg-red-900/20 text-red-500 flex items-center justify-center mb-6 group-hover:bg-red-900 group-hover:text-white transition-colors"
             >
@@ -374,12 +484,16 @@
             >
               Coba Photobox <i data-lucide="arrow-right" class="w-4 h-4"></i>
             </a>
-          </div>
+          </article>
 
-          <!-- Gallery Card -->
-          <div
-            class="group p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          <!-- 03 Layanan Galeri Drive -->
+          <article
+            class="group relative overflow-hidden p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
           >
+            <span
+              class="absolute -top-4 right-4 text-8xl font-sef text-white/10 group-hover:text-yellow-300/30 transition-colors select-none pointer-events-none"
+              >03</span
+            >
             <div
               class="w-14 h-14 rounded-2xl bg-red-900/20 text-red-500 flex items-center justify-center mb-6 group-hover:bg-red-900 group-hover:text-white transition-colors"
             >
@@ -402,12 +516,16 @@
               Coba Galeri Drive
               <i data-lucide="arrow-right" class="w-4 h-4"></i>
             </a>
-          </div>
+          </article>
 
-          <!-- Zines Card -->
-          <div
-            class="group p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          <!-- 04 Layanan Cetak Zines -->
+          <article
+            class="group relative overflow-hidden p-8 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
           >
+            <span
+              class="absolute -top-4 right-4 text-8xl font-sef text-white/10 group-hover:text-yellow-300/30 transition-colors select-none pointer-events-none"
+              >04</span
+            >
             <div
               class="w-14 h-14 rounded-2xl bg-red-900/20 text-red-500 flex items-center justify-center mb-6 group-hover:bg-red-900 group-hover:text-white transition-colors"
             >
@@ -429,13 +547,13 @@
               Lihat Cara Buat Zines
               <i data-lucide="arrow-right" class="w-4 h-4"></i>
             </a>
-          </div>
+          </article>
         </div>
       </section>
 
-      <section class="py-12 px-2" id="gallery" data-aos="fade-right">
-        <div class="text-center mb-4 flex flex-col items-center">
-          <h2 class="text-3xl font-bold text-white mb-4">
+      <section class="py-16 px-2" id="gallery" data-aos="fade-right">
+        <div class="text-center mb-8 flex flex-col items-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
             Buktikan Sendiri Keunikan Hasil Digicam Kami
           </h2>
           <p class="text-white/80 max-w-2xl">
@@ -444,8 +562,8 @@
             adalah bukti otentiknya.
           </p>
           <a
-            class="inline-flex items-center gap-2 text-white font-medium hover:text-red-400 transition-colors mt-2 text-lg underline"
             href="https://gallery.soreaja.my.id/12Qn6qLYk_A-AJWqhTZaPZs3wlBJrJuRJ"
+            class="mt-4 px-6 py-2.5 border border-yellow-300 text-yellow-300 rounded-full inline-flex items-center gap-2 text-sm font-medium hover:bg-yellow-300 hover:text-neutral-950 transition-all"
             >Jelajahi Galeri Kami
             <i data-lucide="arrow-right" class="w-4 h-4"></i
           ></a>
@@ -823,6 +941,118 @@
         </div>
       </section>
 
+      <section class="py-16 px-2" id="booking" data-aos="fade-up">
+        <div class="text-center mb-12 flex flex-col items-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+            Cara Sewa, Simpel Banget
+          </h2>
+          <p class="text-white/80 max-w-2xl">
+            Cuma empat langkah, digicam impianmu langsung siap nemenin momen
+            serumu. Nggak ribet, nggak pusing.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+          <article
+            class="group p-6 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <span
+              class="text-5xl font-sef text-yellow-300/80 leading-none"
+              >01</span
+            >
+            <div
+              class="w-12 h-12 rounded-xl bg-red-900/20 text-red-500 flex items-center justify-center my-4 group-hover:bg-red-900 group-hover:text-white transition-colors"
+            >
+              <i data-lucide="phone" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Hubungi Admin</h3>
+            <p class="text-sm text-white/80 leading-relaxed">
+              Chat WhatsApp buat cek ketersediaan kamera, tanya harga, atau
+              konsultasi momen-mu.
+            </p>
+          </article>
+
+          <article
+            class="group p-6 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <span
+              class="text-5xl font-sef text-yellow-300/80 leading-none"
+              >02</span
+            >
+            <div
+              class="w-12 h-12 rounded-xl bg-red-900/20 text-red-500 flex items-center justify-center my-4 group-hover:bg-red-900 group-hover:text-white transition-colors"
+            >
+              <i data-lucide="calendar-check" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Pilih &amp; Booking</h3>
+            <p class="text-sm text-white/80 leading-relaxed">
+              Pilih digicam favoritmu, tentukan tanggal sewa, dan isi data
+              pemesanan.
+            </p>
+          </article>
+
+          <article
+            class="group p-6 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <span
+              class="text-5xl font-sef text-yellow-300/80 leading-none"
+              >03</span
+            >
+            <div
+              class="w-12 h-12 rounded-xl bg-red-900/20 text-red-500 flex items-center justify-center my-4 group-hover:bg-red-900 group-hover:text-white transition-colors"
+            >
+              <i data-lucide="credit-card" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Bayar DP 50%</h3>
+            <p class="text-sm text-white/80 leading-relaxed">
+              Amankan slot dengan DP 50% dari total biaya sewa, sisanya saat
+              pengambilan.
+            </p>
+          </article>
+
+          <article
+            class="group p-6 rounded-3xl bg-slate-500/20 backdrop-blur-sm hover:border-red-900/50 transition-colors hover:-translate-y-1 transform duration-300"
+          >
+            <span
+              class="text-5xl font-sef text-yellow-300/80 leading-none"
+              >04</span
+            >
+            <div
+              class="w-12 h-12 rounded-xl bg-red-900/20 text-red-500 flex items-center justify-center my-4 group-hover:bg-red-900 group-hover:text-white transition-colors"
+            >
+              <i data-lucide="rotate-ccw" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">
+              Ambil &amp; Kembalikan
+            </h3>
+            <p class="text-sm text-white/80 leading-relaxed">
+              Ambil kamera, nikmati momenmu, dan kembalikan sesuai jadwal.
+            </p>
+          </article>
+        </div>
+
+        <div
+          class="flex flex-col sm:flex-row items-center gap-4 justify-center mt-10"
+        >
+          <a
+            href="https://wa.me/6282257038056?text=Halo kakk... Aku mau tanya-tanya nih."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-full sm:w-auto px-8 py-4 bg-yellow-300 text-neutral-950 font-semibold rounded-full flex items-center justify-center gap-2 hover:bg-yellow-400 transition-all hover:scale-105 active:scale-95"
+          >
+            <i data-lucide="message-circle-check" class="w-5 h-5"></i>
+            Mulai Sewa Sekarang
+          </a>
+          <a
+            href="rent-catalog.html"
+            class="w-full sm:w-auto px-8 py-4 bg-white text-neutral-950 font-semibold rounded-full flex items-center justify-center gap-2 hover:bg-neutral-200 transition-all hover:scale-105 active:scale-95"
+          >
+            <i data-lucide="camera" class="w-5 h-5"></i>
+            Lihat Katalog Digicam
+          </a>
+        </div>
+      </section>
+
       <section class="py-12 px-2" id="contact" data-aos="fade-up">
         <div class="text-center mb-4 flex flex-col items-center">
           <h2 class="text-3xl font-bold text-white mb-4">
@@ -910,6 +1140,9 @@
           </li>
           <li>
             <a href="#faq">FAQ</a>
+          </li>
+          <li>
+            <a href="#booking">Cara Sewa</a>
           </li>
           <li>
             <a href="#contact">Kontak</a>
