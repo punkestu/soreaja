@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const modalImages = document.getElementById('modalImages');
     const modalYoutube = document.getElementById('modalYoutube');
+    const modalDescription = document.getElementById('modalDescription');
     const modalCalendar = document.getElementById('modalCalendar');
     const modalTitle = document.getElementById('modalTitle');
     const modalDuration = document.getElementById('modalDuration');
@@ -61,6 +62,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
         selectedProduct = product;
+
+        modalDescription.innerHTML = product.description;
 
         modalImages.innerHTML = [product.image, ...(product.images ?? [])].map(imageUrl => {
             return `<a href="${imageUrl}" target="_blank" class="w-auto lg:w-full h-full lg:h-auto">
@@ -160,6 +163,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     name: camera.name,
                     price: camera.pricePerDay,
                     image: camera.image,
+                    description: camera.description,
                     images: camera.images,
                     youtube_url: camera.youtubeUrl,
                     calendar_url: camera.calendarUrl
