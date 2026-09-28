@@ -1,5 +1,38 @@
 [
   {
+    "id": "kodak-pixpro-fz55",
+    "name": "Kodak PixPro FZ55",
+    "description": "Kodak PixPro FZ55 adalah kamera saku ringkas yang tangguh dengan sensor 16 MP dan 5x optical zoom, ideal untuk menangkap momen sehari-hari dengan detail yang jernih dan tajam. Dilengkapi kemampuan perekaman video Full HD 1080p serta lensa sudut lebar 28mm, kamera bergaya retro ini menjadi pilihan sempurna bagi Anda yang menginginkan hasil foto estetis tanpa ribet.",
+    "pricePerDay": 50000,
+    "youtubeUrl": "https://www.youtube.com/watch?v=jcyz_wOHN5k",
+    "calendarUrl": "https://calendar.google.com/calendar/embed?src=23778d68eb2920e73655881d20d1ca40e95e61e92053614014676c24ffa7db29%40group.calendar.google.com&ctz=Asia%2FJakarta",
+    "image": "/cameras/kodak/face.webp",
+    "images": [
+    ]
+  },
+  {
+    "id": "instax-mini-evo",
+    "name": "Instax Mini Evo",
+    "description": "Instax Mini Evo menghadirkan perpaduan sempurna antara gaya klasik dan teknologi modern dengan kombinasi 10 efek lensa serta 10 efek film untuk menghasilkan hingga 100 gaya foto yang unik. Dilengkapi layar LCD untuk memilih dan mencetak foto instan secara langsung, kamera instan hibrida ini juga memungkinkan Anda mencetak foto kesayangan langsung dari ponsel pintar dengan mudah.",
+    "pricePerDay": 60000,
+    "youtubeUrl": "https://www.instagram.com/reels/DZChT6XDGDu/",
+    "calendarUrl": "https://calendar.google.com/calendar/embed?src=8739eb9d9f6ba577a012819ede6dfd38ad1fbb2f69c8878f1b7050281321d4ae%40group.calendar.google.com&ctz=Asia%2FJakarta",
+    "image": "/cameras/instax/face.webp",
+    "images": [
+    ]
+  },
+  {
+    "id": "instax-mini-evo+kertas",
+    "name": "Instax Mini Evo + Kertas",
+    "description": "*** KONFIRMASI STOK SEBELUM PESAN DENGAN KERTAS FOTO***. Instax Mini Evo menghadirkan perpaduan sempurna antara gaya klasik dan teknologi modern dengan kombinasi 10 efek lensa serta 10 efek film untuk menghasilkan hingga 100 gaya foto yang unik. Dilengkapi layar LCD untuk memilih dan mencetak foto instan secara langsung, kamera instan hibrida ini juga memungkinkan Anda mencetak foto kesayangan langsung dari ponsel pintar dengan mudah.",
+    "pricePerDay": 220000,
+    "youtubeUrl": "https://www.instagram.com/reels/DZChT6XDGDu/",
+    "calendarUrl": "https://calendar.google.com/calendar/embed?src=8739eb9d9f6ba577a012819ede6dfd38ad1fbb2f69c8878f1b7050281321d4ae%40group.calendar.google.com&ctz=Asia%2FJakarta",
+    "image": "/cameras/instax/face.webp",
+    "images": [
+    ]
+  },
+  {
     "id": "olympus-vg-180",
     "name": "Olympus VG-180",
     "description": "Abadikan setiap momen dengan Olympus VG-180. Kamera digital 16 MP dengan zoom optik 5x yang menghasilkan foto tajam dan video HD, praktis dibawa ke mana saja.",

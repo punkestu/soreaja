@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </div>
                 <div class="p-5 flex flex-col grow bg-white text-gray-900">
                     <h3 class="font-bold text-xl mb-2 text-red-950">${camera.name}</h3>
-                    <p class="text-sm text-gray-600 mb-1 grow">${camera.description}</p>
+                    <p class="text-sm text-gray-600 mb-1 grow">${limitStr(camera.description)}</p>
                     ${camera.youtubeUrl ? `<a href="${camera.youtubeUrl}" class="mb-5 text-sm text-blue-500 underline" target="_blank">Tutorial Penggunaan</a>` : "<div class='mb-5'></div>"}
                     <button class="w-full bg-red-900 hover:bg-red-800 text-white font-semibold py-3 px-4 rounded-xl transition-colors flex items-center justify-center gap-2 open-modal-btn">Sewa Sekarang</button>
                 </div>
@@ -173,3 +173,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         cameraGrid.innerHTML = '<p class="text-red-200 text-center col-span-full">Gagal memuat katalog kamera.</p>';
     }
 });
+
+function limitStr(str, limit = 150) {
+    return str.length <= limit ? str : str.substring(0, limit - 3) + "...";
+}
